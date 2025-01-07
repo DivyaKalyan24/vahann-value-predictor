@@ -8,7 +8,7 @@ CORS(app, origins='https://vahann-value.vercel.app', methods=['POST'], supports_
 
 @app.route('/', methods=['GET'])
 def home():
-    return 'Hello World'
+    return "<p>Hello, World!</p>"
     
 @app.route('/fetch-cars', methods=['POST'])
 def fetch_data():
